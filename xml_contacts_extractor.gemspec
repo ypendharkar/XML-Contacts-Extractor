@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["yogesh.pendharkar@gmail.com"]
   spec.description   = %q{Extracts contact information from XML}
   spec.summary       = %q{Extracts contact information from XML}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/ypendharkar/XML-Contacts-Extractor"
   spec.license       = "MIT"
   
   spec.add_runtime_dependency "nokogiri"

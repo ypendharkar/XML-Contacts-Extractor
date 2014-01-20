@@ -1,6 +1,6 @@
 # XmlContactsExtractor
 
-Extracts contact information from XML.
+Extracts contact information from XML. Dictionary based information extractor from any valid XML. Dependent on Nokogiri.
 
 ## Installation
 
@@ -18,7 +18,24 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Create an instance
+
+    obj = XmlContactsExtractor::Search.new
+
+Extract elements from XML
+
+    a.extract_contacts(xml)
+
+Use contact info
+
+    a.fname
+	a.lname
+	a.email
+	a.phone
+	a.address
+	a.city
+	a.state
+	a.zip
 
 ## Contributing
 
