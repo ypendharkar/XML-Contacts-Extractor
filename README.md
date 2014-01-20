@@ -21,21 +21,19 @@ Or install it yourself as:
 Create an instance
 
     obj = XmlContactsExtractor::Search.new
-
-Extract elements from XML
-
-    a.extract_contacts(xml)
+	xml = '<root><fname>John</fname><lname>Doe</lname><email>john@doe.com</email><phone>123-456-7890</phone></root>'
+    obj.extract_contacts(xml)
 
 Use contact info
 
-    a.fname
-	a.lname
-	a.email
-	a.phone
-	a.address
-	a.city
-	a.state
-	a.zip
+    obj.fname
+	obj.lname
+	obj.email
+	obj.phone
+	obj.address
+	obj.city
+	obj.state
+	obj.zip
 
 ## Contributing
 

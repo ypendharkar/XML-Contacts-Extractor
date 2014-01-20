@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = XmlContactsExtractor::VERSION
   spec.authors       = ["Yogesh Pendharkar"]
   spec.email         = ["yogesh.pendharkar@gmail.com"]
-  spec.description   = %q{Extracts contact information from XML}
+  spec.description   = %q{Extracts contact information from XML. Dictionary based information extractor from any valid XML.}
   spec.summary       = %q{Extracts contact information from XML}
   spec.homepage      = "https://github.com/ypendharkar/XML-Contacts-Extractor"
   spec.license       = "MIT"
