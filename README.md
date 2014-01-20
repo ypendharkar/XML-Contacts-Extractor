@@ -1,6 +1,6 @@
 # XmlContactsExtractor
 
-TODO: Write a gem description
+Extracts contact information from XML.
 
 ## Installation
 
